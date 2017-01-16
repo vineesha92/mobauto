@@ -1,0 +1,47 @@
+<!--
+File : ExecuteTestCasePage.xml
+Author : mTest:OmniTest Framework
+Purpose	: Contains UI elements for ExecuteTestCasePage area of the app.
+-->
+
+<elements area="web_ExecuteTestCasePage">
+
+<element key="release" findBy="id" id="s2id_release_select" tag="" name="" xPath="" class="" text=""/>
+<element key="cycle" findBy="id" id="s2id_cycle_block" tag="" name="" xPath="" class="" text=""/>
+<element key="testcases" findBy="id" id="s2id_autogen6" tag="" name="" xPath="" class="" text=""/>
+<element key="unexecuted" findBy="xpath" id=""  tag="" name="" xPath="//*/div[2]/ul/li/span/a[@title='Unexecuted']" class="" text=""/>
+<element key="pass" findBy="xpath" id=""  tag="" name="" xPath="//*/div[2]/ul/li/span/a[@title='Pass']" class="" text=""/>
+<element key="failed" findBy="xpath" id=""  tag="" name="" xPath="//*/div[2]/ul/li/span/a[@title='Failed']" class="" text=""/>
+<element key="blocked" findBy="xpath" id=""  tag="" name="" xPath="//*/div[2]/ul/li/span/a[@title='Blocked']" class="" text=""/>
+<element key="testdetails" findBy="class" id=""  tag="" name="" xPath="" class="table table-striped b-t b-light" text=""/>
+<element key="sno" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' S. No.']" class="" text=""/>
+<element key="teststep" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Test Step']" class="" text=""/>
+<element key="expectedresult" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Expected Result']" class="" text=""/>
+<element key="status" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Status']" class="" text=""/>
+<element key="comment" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Comment']" class="" text=""/>
+<element key="attachment" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Attachment']" class="" text=""/>
+<element key="defect" findBy="xpath" id=""  tag="" name="" xPath="//th[text()=' Defect']" class="" text=""/>
+<element key="statuschangeunexecuted" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[4]/a[@title='Unexecuted']" class="" text=""/>
+<element key="statuschangepass" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[4]/a[@title='Pass']" class="" text=""/>
+<element key="statuschangefailed" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[4]/a[@title='Failed']" class="" text=""/>
+<element key="statuschangeblocked" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[4]/a[@title='Blocked']" class="" text=""/>
+<element key="comment" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[5]/a[1]" class="" text=""/>
+<element key="commenttextarea" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[5]/textarea" class="" text=""/>
+<element key="savecomment" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[5]/a[2]" class="" text=""/>
+<element key="exitcomment" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[5]/a[3]" class="" text=""/>
+<element key="seeattachments" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[6]/a[@title='See attachments']" class="" text=""/>
+<element key="addattachments" findBy="xpath" id=""  tag="" name="" xPath="//tbody/tr[1]/td[6]/a[@title='Add attachments']" class="" text=""/>
+<element key="selectattachdefect" findBy="xpath" id=""  tag="" name="" xPath="//*[@id='s2id_add_defect_to_step']/a" class="" text=""/>
+<element key="addnewdefect" findBy="xpath" id=""  tag="" name="" xPath="//table/tbody/tr[1]/td[7]/a[@title='Add new defect']" class="" text=""/>
+<element key="downloadfile" findBy="xpath" id=""  tag="" name="" xPath="//*[@id='append_step_files']/div/div/p/a[@title='Download']" class="" text=""/>
+<element key="deletefile" findBy="xpath" id=""  tag="" name="" xPath="//*[@id='append_step_files']/div/div/p/a[@title='Delete']" class="" text=""/>
+<element key="uploadattachmentfile" findBy="xpath" id=""  tag="" name="" xPath="//*[@id='ajaxModal']/div/div/form" class="" text=""/>
+<element key="filename" findBy="name" id=""  tag="" name="file_name[]" xPath="" class="" text=""/>
+<element key="choosefile" findBy="name" id=""  tag="" name="files[]" xPath="" class="" text=""/>
+<element key="clearfiles" findBy="id" id="clear-files" tag="" name="" xPath="" class="" text=""/>
+<element key="addanotherfile" findBy="id" id="add-new-file" tag="" name="" xPath="" class="" text=""/>
+<element key="uploadfile" findBy="text" id=""  tag="" name="" xPath="" class="" text="Upload File"/>
+<element key="close" findBy="text" id=""  tag="" name="" xPath="" class="" text="Close"/>
+<element key="xonuploadattachmentfile" findBy="text" id=""  tag="" name="" xPath="" class="" text="?"/>
+
+</elements>

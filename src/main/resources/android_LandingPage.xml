@@ -1,0 +1,18 @@
+<!--
+File : android_LandingPage.xml
+Author : Vineesha, Kevin
+Purpose	: Contains UI elements for LandingPage area of the app.
+-->
+
+<elements area="android_LandingPage">
+
+<element key="addtestcase" findBy="id" id="testcase_form" tag="" name="" xPath="" class="" text=""/>
+<element key="testcase" findBy="name" id=""  tag="" name="test_case" xPath="" class="" text=""/>
+<element key="description" findBy="name" id=""  tag="" name="description" xPath="" class="" text=""/>
+<element key="component" findBy="text" id=""  tag="" name="" xPath="" class="" text="Select component"/>
+<element key="user story" findBy="text" id=""  tag="" name="" xPath="" class="" text="Select story"/>
+<element key="priority" findBy="text" id=""  tag="" name="" xPath="" class="" text="Low"/>
+<element key="version" findBy="text" id=""  tag="" name="" xPath="" class="" text="Select release"/>
+<element key="reviewer" findBy="text" id=""  tag="" name="" xPath="" class="" text="Select reviewer"/>
+
+</elements>

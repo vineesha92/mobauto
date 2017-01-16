@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environments>
+	<environment>
+		<executionplatform>local</executionplatform> <!-- local, perfecto -->
+		<testclient>android</testclient> <!-- firefox, chrome, ie, safari, ios, android -->
+		<baseurl>http://talent.true.xyz</baseurl><!--  base url of the application -->
+		<capabilities>
+		    <browserName>android</browserName><!-- android|chrome|firefox|htmlunit|internet explorer|iPhone|iPad|opera|safari -->
+		    <automationName>Appium</automationName> <!-- Selendroid -->
+		   	
+		    <device></device>
+		    <deviceName></deviceName>
+		    <platformName></platformName>
+		    <platformVersion></platformVersion>
+		  	
+		  	<app></app> <!-- Absolute path of the application build -->
+		    <udid></udid>
+		    
+		    <appActivity></appActivity>
+		    <appPackage></appPackage>
+		    <autoAcceptAlerts>true</autoAcceptAlerts>
+		    <newCommandTimeout>60</newCommandTimeout>
+		</capabilities>
+	</environment>
+</environments>

@@ -1,0 +1,14 @@
+<!--
+File : appElementIndex.xml
+Author : Vineesha, Kevin
+Purpose : Contains a reference to each of xml files that map elements on a given Page to keys that can be used within page objects.
+-->
+
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<entry key="android_LogInPage">/resources/android_LogInPage.xml</entry>
+<entry key="android_LandingPage">/resources/android_LandingPage.xml</entry>
+<entry key="android_SignUpPage">/resources/android_SignUpPage.xml</entry>
+
+</properties>

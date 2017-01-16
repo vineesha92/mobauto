@@ -1,0 +1,4 @@
+# Maven
+log/
+target/
+test-output/
